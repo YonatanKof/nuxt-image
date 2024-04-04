@@ -2,12 +2,10 @@
 
 <template>
 	<div>
-		<NuxtImg src="/PhotoKof-1.jpg" sizes="100vw sm:50vw md:400px" format="webp" />
+		<NuxtImg src="/PhotoKof-1.jpg" width="1000" sizes="100vw sm:50vw md:400px" format="webp" placeholder />
 	</div>
 </template>
 
 <style scoped>
-img {
-	max-width: 24rem;
-}
+
 </style>
