@@ -2,17 +2,18 @@
 const props = defineProps({
 	src: {
 		type: String,
-		default: '',
+		default: undefined,
 	},
 });
 </script>
 
 <template>
+	<h6>ProseImg</h6>
 	<NuxtImg id="xxx" :src="props.src" width="1000" sizes="100vw sm:50vw" format="webp" placeholder />
 </template>
 
 <style scoped>
-#xxx {
-	border: 5px solid red;
+img {
+	border: 5px solid gold;
 }
 </style>
